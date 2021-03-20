@@ -34,6 +34,8 @@ function draw() {
 
 
   if (stageNum == 0) {
+    stageNum = 0;
+    score = 0;
 
     push();
     textAlign(CENTER);
@@ -75,6 +77,7 @@ function draw() {
   }
 
   if (stageNum == 1) {
+    stageNum = 1;
 
     push();
     textAlign(CENTER);
@@ -120,6 +123,7 @@ function draw() {
   }
 
   if (stageNum == 2) {
+    stageNum = 2;
 
     for (var i = 0; i < asteroids.length; i++) {
       if (ship.hits(asteroids[i])) {
@@ -177,6 +181,7 @@ function draw() {
   }
 
   if (stageNum == 3) {
+    stageNum = 3;
 
     earth.display();
     earth.move();
@@ -202,6 +207,7 @@ function draw() {
   }
 
   if (stageNum == 4) {
+    stageNum = 4;
 
     push();
     textAlign(CENTER);
